@@ -12,10 +12,16 @@ namespace ClaseObjetos
         public Deposito DepositoDeGuarda { set; get; }
         public decimal Cantidad { set; get; }
 
-
-        public decimal StockValorizado()
+        public Stock(Articulo articuloEnDeposito, Deposito depositoDeGuarda, decimal cantidad)
         {
-            return this.Cantidad * this.ArticuloEnDeposito.CalcularPrecio();
-    }
+            ArticuloEnDeposito = articuloEnDeposito;
+            DepositoDeGuarda = depositoDeGuarda;
+            Cantidad = cantidad;
+        }
+
+        public string StockValorizado()
+        {
+            return "El precio unitario es: " + this.ArticuloEnDeposito.CalcularPrecio() + " Su Stock Actual: " + this.Cantidad + Environment.NewLine +"El Stock Valorizado es : " + this.Cantidad * this.ArticuloEnDeposito.CalcularPrecio();
+        }
     }
 }

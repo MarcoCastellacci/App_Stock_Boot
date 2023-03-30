@@ -1,18 +1,16 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Transactions;
-
 
 namespace ClaseObjetos
 {
-    public class Server_Cennect
+     public class AccesoDatos
     {
-
         private SqlConnection ConnectionBD = new SqlConnection();
         public string strcondatos;
         public string strcondatosSucursal;
@@ -25,22 +23,21 @@ namespace ClaseObjetos
 
 
 
-        public Server_Cennect()
+        public AccesoDatos()
         {
             //Para SQL en la nube
-            serverBD = "SQL5110.site4now.net";
-            usuarioBD = "db_a96920_alumnos_admin";
-            PasswordBD = "Bootcamp2023";
-            basedatos = "db_a96920_alumnos";
+            //serverBD = "SQL5110.site4now.net";
+            //usuarioBD = "db_a96920_alumnos_admin";
+            //PasswordBD = "Bootcamp2023";
+            //basedatos = "db_a96920_alumnos";
 
-            ////armo conexion a la BD
-            strcondatos = @"Data Source=" + serverBD + ";Initial Catalog=" + basedatos + ";User ID=" + usuarioBD + ";Password=" + PasswordBD;
+            // armo conexion a la BD
+            //strcondatos = @"Data Source=" + serverBD + ";Initial Catalog=" + basedatos + ";User ID=" + usuarioBD + ";Password=" + PasswordBD;
 
             //Para SQL en mi computadora
-            //serverBD = "DESKTOP-OSRNAUL";
-            //basedatos = "Alumnos_Clase";
-            //strcondatos = @"Data Source=" + this.serverBD + ";Initial Catalog=" + this.basedatos + ";Integrated Security=true";
-
+            serverBD = @"Kako\SQLEXPRESS";
+            basedatos = "App_Stock";
+            strcondatos = @"Data Source=" + this.serverBD + ";Initial Catalog=" + this.basedatos + ";Integrated Security=true";
 
         }
 

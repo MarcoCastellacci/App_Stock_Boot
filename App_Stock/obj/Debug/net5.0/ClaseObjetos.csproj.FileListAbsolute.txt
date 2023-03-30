@@ -30,3 +30,10 @@ C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\o
 C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\obj\Debug\net5.0\ClaseObjetos.pdb
 C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\obj\Debug\net5.0\ClaseObjetos.genruntimeconfig.cache
 C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\obj\Debug\net5.0\ref\ClaseObjetos.dll
+C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ACER\Programacion\Boot .NET\MarcoCastellacci\App_Stock_Boot\App_Stock\obj\Debug\net5.0\ClaseObjetos.csproj.CopyComplete

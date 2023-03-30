@@ -8,7 +8,7 @@ namespace ClaseObjetos
 {
     public class Deposito
     {
-        public int Numero { set; get; }
+        public int Id { set; get; }
         public string Direccion { set; get; }
         public string Nombre { set; get; }
         public string Telefono { set; get; }
@@ -26,13 +26,13 @@ namespace ClaseObjetos
         public Deposito(int numero, string nombre, string direccion)
         {
             this.Nombre = nombre;
-            this.Numero = numero;
+            this.Id = numero;
             this.Direccion = direccion;
         }
         public Deposito(int numero, string nombre, string direccion, string telefono, float capacidad, string horario)
         {
             this.Nombre = nombre;
-            this.Numero = numero;
+            this.Id = numero;
             this.Direccion = direccion;
             this.Telefono = telefono;
             this.Capacidad = capacidad;
@@ -41,12 +41,12 @@ namespace ClaseObjetos
 
         public string MostrarDatosPrincipales()
         {
-            return "Id Deposito" + " " + this.Numero + " " + "Nombre:" + this.Nombre + " " + "Direccion:" + this.Direccion;
+            return "Id Deposito" + " " + this.Id + " " + "Nombre:" + this.Nombre + " " + "Direccion:" + this.Direccion;
         }
 
         public string MostrarDatos()
         {
-            return "Id Deposito:" + " " + this.Numero + " " + "Nombre:" + this.Nombre + " " + "Direccion:" + this.Direccion
+            return "Id Deposito:" + " " + this.Id + " " + "Nombre:" + this.Nombre + " " + "Direccion:" + this.Direccion
                 + " " + "Capacidad:" + this.Capacidad + " " + "Horario:" + this.Horario;
 
         }
@@ -57,9 +57,25 @@ namespace ClaseObjetos
             string ArticulosEnDeposito = "";
             for (int i = 0; i < this.ArticuloPermitido.Count; i++)
             {
-                ArticulosEnDeposito += ArticuloPermitido[i].Nombre + " " + ArticuloPermitido[i].Numero + " " + Environment.NewLine;
+                ArticulosEnDeposito += ArticuloPermitido[i].Nombre + " " + ArticuloPermitido[i].ID + " " + Environment.NewLine;
             }
-            return "Deposito: " + this.Nombre + " Direccion: " + this.Direccion + " Numero ID: " + this.Numero + " Y los Articulos Permitidos son: " + ArticulosEnDeposito;
+            return "Deposito: " + this.Nombre + " Direccion: " + this.Direccion + " Numero ID: " + this.Id + " Y los Articulos Permitidos son: " + ArticulosEnDeposito;
         }
+
+        public string ValidarArticulo(Articulo articulo)
+        {
+           bool existe = ArticuloPermitido.Contains(articulo);
+
+            if (existe == true)
+            {
+                return "El articulo No esta Permitido";
+            }
+            else
+            {
+                return "El articulo esta permitido";
+            }
+        }
+
+        
     }
 }
