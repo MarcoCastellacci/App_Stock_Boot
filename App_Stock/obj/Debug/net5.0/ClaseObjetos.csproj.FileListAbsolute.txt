@@ -1,0 +1,16 @@
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\bin\Debug\net5.0\ClaseObjetos.exe
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\bin\Debug\net5.0\ClaseObjetos.deps.json
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\bin\Debug\net5.0\ClaseObjetos.runtimeconfig.json
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\bin\Debug\net5.0\ClaseObjetos.runtimeconfig.dev.json
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\bin\Debug\net5.0\ClaseObjetos.dll
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\bin\Debug\net5.0\ref\ClaseObjetos.dll
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\bin\Debug\net5.0\ClaseObjetos.pdb
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ClaseObjetos.csproj.AssemblyReference.cache
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ClaseObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ClaseObjetos.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ClaseObjetos.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ClaseObjetos.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ClaseObjetos.dll
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ref\ClaseObjetos.dll
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ClaseObjetos.pdb
+C:\Users\marco\OneDrive\Escritorio\Programacion\Bootcamp .NET\ClaseObjetos\obj\Debug\net5.0\ClaseObjetos.genruntimeconfig.cache

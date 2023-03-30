@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "d62qaLU686F4Kz+h6Zt7r2wthNhb1YKwh+ak2zamjxH0Yyxx/KEtTZfIR1Y4GKFc6XpnB6DW6tAPuDUKasUC+w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\marco\\OneDrive\\Escritorio\\Programacion\\Bootcamp .NET\\ClaseObjetos\\ClaseObjetos.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App.Host.win-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
