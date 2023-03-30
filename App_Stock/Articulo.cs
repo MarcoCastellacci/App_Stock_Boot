@@ -14,10 +14,10 @@ namespace ClaseObjetos
         public string Tipo { set; get; }
         public string Marca { set; get; }
         public string Proveedor { set; get; }
-        public float MinStock { set; get; }
-        public double Costo { set; get; }
-        public float Precio { set; get; }
-        public float Margen { set; get; }
+        public decimal MinStock { set; get; }
+        public decimal Costo { set; get; }
+        public decimal Precio { set; get; }
+        public decimal Margen { set; get; }
         public List<Categoria> Categorias;
 
         public Articulo()
@@ -32,7 +32,7 @@ namespace ClaseObjetos
             this.Nombre = nombre;
 
         }
-        public Articulo(int numero, string nombre, string tipo, string marca, string proveedor, float minstock, float costo, float margen)
+        public Articulo(int numero, string nombre, string tipo, string marca, string proveedor, decimal minstock, decimal costo, decimal margen)
         {
             this.Nombre = nombre;
             this.Numero = numero;
@@ -55,20 +55,20 @@ namespace ClaseObjetos
                  + "Categoria:" + this.Tipo + " " + "Proveedor:" + this.Proveedor + " " + "Precio:" + " " + this.Precio;
         }
 
-        public float CalcularPrecio()
+        public decimal CalcularPrecio()
         {
-          return  this.Precio = ((float)((float)(this.Costo * this.Margen) + this.Costo));
+          return  this.Precio = (this.Costo * this.Margen) + this.Costo;
         }
 
-        public float CalcularDescuento()
+        public decimal CalcularDescuento()
         {
             if (this.Precio > 10000)
             {
-                return this.Precio = ((float)((float)(this.Costo * this.Margen) + this.Costo)) - 1500;
+                return this.Precio = ((this.Costo * this.Margen) + this.Costo) -(1500);
             }
             else
             {
-                return this.Precio = ((float)((float)(this.Costo * this.Margen) + this.Costo));
+                return this.Precio = (this.Costo * this.Margen) + this.Costo;
             }
 
         }

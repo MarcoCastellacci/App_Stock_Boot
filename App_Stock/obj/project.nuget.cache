@@ -1,18 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "d62qaLU686F4Kz+h6Zt7r2wthNhb1YKwh+ak2zamjxH0Yyxx/KEtTZfIR1Y4GKFc6XpnB6DW6tAPuDUKasUC+w==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\marco\\OneDrive\\Escritorio\\Programacion\\Bootcamp .NET\\ClaseObjetos\\ClaseObjetos.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "No se encuentra el paquete Microsoft.NETCore.App.Host.win-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "dgSpecHash": "UfQCylIlxa06KJBRhNDGHihoiuVBQKLDeoqAPwrlZD9o8LimvOThFj0rARpVZOh2+GPe2BpPocdtQy6ZFBLmqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ACER\\Programacion\\Boot .NET\\MarcoCastellacci\\App_Stock_Boot\\App_Stock\\ClaseObjetos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
 }

@@ -21,6 +21,8 @@ namespace ClaseObjetos
             ArticuloPermitido = new List<Articulo>();
         }
 
+
+
         public Deposito(int numero, string nombre, string direccion)
         {
             this.Nombre = nombre;
@@ -51,12 +53,13 @@ namespace ClaseObjetos
 
         public string MostrarArticulos()
         {
+
             string ArticulosEnDeposito = "";
             for (int i = 0; i < this.ArticuloPermitido.Count; i++)
             {
-                ArticulosEnDeposito += ArticuloPermitido[i].Nombre + " " + ArticuloPermitido[i].Numero + " ";
+                ArticulosEnDeposito += ArticuloPermitido[i].Nombre + " " + ArticuloPermitido[i].Numero + " " + Environment.NewLine;
             }
-            return "Deposito: " + this.Nombre + " Direccion: " + this.Direccion + " Numero ID: " + this.Numero + " Y los Articulos Permitidos son:" + ArticulosEnDeposito;
+            return "Deposito: " + this.Nombre + " Direccion: " + this.Direccion + " Numero ID: " + this.Numero + " Y los Articulos Permitidos son: " + ArticulosEnDeposito;
         }
     }
 }

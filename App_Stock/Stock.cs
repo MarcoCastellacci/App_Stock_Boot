@@ -10,10 +10,10 @@ namespace ClaseObjetos
     {
         public Articulo ArticuloEnDeposito { set; get; }
         public Deposito DepositoDeGuarda { set; get; }
-        public float Cantidad { set; get; }
+        public decimal Cantidad { set; get; }
 
 
-        public float StockValorizado()
+        public decimal StockValorizado()
         {
             return this.Cantidad * this.ArticuloEnDeposito.CalcularPrecio();
     }

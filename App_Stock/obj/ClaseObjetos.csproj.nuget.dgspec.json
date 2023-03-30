@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marco\\OneDrive\\Escritorio\\Programacion\\Bootcamp .NET\\ClaseObjetos\\ClaseObjetos.csproj": {}
+    "C:\\Users\\ACER\\Programacion\\Boot .NET\\MarcoCastellacci\\App_Stock_Boot\\App_Stock\\ClaseObjetos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marco\\OneDrive\\Escritorio\\Programacion\\Bootcamp .NET\\ClaseObjetos\\ClaseObjetos.csproj": {
+    "C:\\Users\\ACER\\Programacion\\Boot .NET\\MarcoCastellacci\\App_Stock_Boot\\App_Stock\\ClaseObjetos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Escritorio\\Programacion\\Bootcamp .NET\\ClaseObjetos\\ClaseObjetos.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Programacion\\Boot .NET\\MarcoCastellacci\\App_Stock_Boot\\App_Stock\\ClaseObjetos.csproj",
         "projectName": "ClaseObjetos",
-        "projectPath": "C:\\Users\\marco\\OneDrive\\Escritorio\\Programacion\\Bootcamp .NET\\ClaseObjetos\\ClaseObjetos.csproj",
-        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\OneDrive\\Escritorio\\Programacion\\Bootcamp .NET\\ClaseObjetos\\obj\\",
+        "projectPath": "C:\\Users\\ACER\\Programacion\\Boot .NET\\MarcoCastellacci\\App_Stock_Boot\\App_Stock\\ClaseObjetos.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\Programacion\\Boot .NET\\MarcoCastellacci\\App_Stock_Boot\\App_Stock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -56,8 +57,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
             }
           ],
           "frameworkReferences": {
